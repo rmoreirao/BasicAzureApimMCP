@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "my-mcp-server-f909d435": {
+      "url": "https://apim-mcp-rmoreirao.azure-api.net/findpetsmcpserver/mcp",
+      "type": "http",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "${env:APIM_SUBSCRIPTION_KEY}"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  },
+  "inputs": []
+}

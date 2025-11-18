@@ -121,3 +121,10 @@ BasicAzureApimMCP/
 ## License
 
 See LICENSE file for details.
+# BasicAzureApimMCP
+
+
+## To execute MCP Inspector
+'''bash
+npx @modelcontextprotocol/inspector
+'''
